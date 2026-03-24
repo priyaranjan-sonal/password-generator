@@ -92,7 +92,7 @@ const App = () => {
               <button
                 onClick={copyPassword}
                 type="button"
-                className='w-[18%] hover:cursor-pointer outline-none bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-3 sm:py-3 shrink-0 text-md font-semibold tracking-wide transition-colors focus-visible:ring-2 focus-visible:ring-indigo-400 focus-visible:ring-offset-2 focus-visible:ring-offset-white'
+                className='w-full min-w-24 sm:w-auto hover:cursor-pointer outline-none bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-3 sm:py-3 shrink-0 text-md font-semibold tracking-wide transition-colors focus-visible:ring-2 focus-visible:ring-indigo-400 focus-visible:ring-offset-2 focus-visible:ring-offset-white'
               >{isCopied ? 'copied!' : 'copy'}
               </button>
             </div>
@@ -209,8 +209,8 @@ const App = () => {
                     setColor(defaultColor)
                   }
                 }}
-                className="sm: w-full cursor-pointer shrink-0 bg-green-200 hover:bg-green-300 p-2 text-green-950 rounded-xl border-2 border-green-500/70 shadow-sm active:scale-95 self-center min-[480px]:self-auto transition-all focus-visible:ring-2 focus-visible:ring-fuchsia-500 focus-visible:ring-offset-2 focus-visible:ring-offset-white outline-none"
-                size={42}
+                className="sm: w-full cursor-pointer shrink-0 bg-green-200 hover:bg-green-300 px-2 py-3 my-1 text-green-950 rounded-xl border-2 border-green-500/70 shadow-sm active:scale-95 self-center min-[480px]:self-auto transition-all focus-visible:ring-2 focus-visible:ring-fuchsia-500 focus-visible:ring-offset-2 focus-visible:ring-offset-white outline-none"
+                size={48}
               />
             </div>
           </div>

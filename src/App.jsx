@@ -92,7 +92,7 @@ const App = () => {
               <button
                 onClick={copyPassword}
                 type="button"
-                className='w-full min-w-24 sm:w-auto hover:cursor-pointer outline-none bg-indigo-500 hover:bg-indigo-600 text-white px-4 py-3 sm:py-3 shrink-0 text-md font-semibold tracking-wide transition-colors focus-visible:ring-2 focus-visible:ring-indigo-400 focus-visible:ring-offset-2 focus-visible:ring-offset-white'
+                className='w-full min-w-24 sm:w-auto hover:cursor-pointer outline-none bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-3 sm:py-3 shrink-0 text-md font-semibold tracking-wide transition-colors focus-visible:ring-2 focus-visible:ring-indigo-400 focus-visible:ring-offset-2 focus-visible:ring-offset-white'
               >{isCopied ? 'copied!' : 'copy'}
               </button>
             </div>
@@ -159,7 +159,7 @@ const App = () => {
 
             <button
               type="button"
-              className='w-full bg-indigo-500 hover:bg-indigo-600 hover:cursor-pointer text-white font-semibold py-3 px-4 mt-6 rounded-xl shadow-md shadow-indigo-500/15 border border-indigo-600/25 block mx-auto active:scale-[0.98] transition-all duration-150 focus-visible:outline focus-visible:outline-offset-2 focus-visible:outline-indigo-500'
+              className='w-full bg-indigo-600 hover:bg-indigo-700 hover:cursor-pointer text-white font-semibold py-3 px-4 mt-6 rounded-xl shadow-md shadow-indigo-500/15 border border-indigo-600/25 block mx-auto active:scale-[0.98] transition-all duration-150 focus-visible:outline focus-visible:outline-offset-2 focus-visible:outline-indigo-500'
               onClick={generatePassword}
             >
               Generate Password
